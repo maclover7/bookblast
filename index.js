@@ -21,6 +21,9 @@ const mailgun = require('mailgun-js')({
 const getBooksPage = () => {
   return request({
     uri: booksUrl,
+    headers: {
+      'X-Forwarded-For': ''
+    },
     transform: (body) => {
       return cheerio.load(body);
     }
