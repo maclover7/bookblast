@@ -1,0 +1,13 @@
+{
+  "name": "bookblast",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/maclover7/bookblast",
+  "author": "Jon Moss <me@jonathanmoss.me>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "mailgun-js": "^0.16.0",
+    "request-promise": "^4.2.2"
+  }
+}
